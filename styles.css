@@ -39,9 +39,26 @@ img {
     width: 80%;
 }
 
+.confetti {
+    visibility: hidden;
+}
+
 footer {
     margin-top: 5%;
     color: #EEEEEE;
     text-align: center;
     font-family: 'Indie Flower', cursive;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.rollbutton {
+    margin: 5%;
+    width: 50%;
+}
+
+.rollbutton:hover {
+    background-color: #4ECCA3;
 }
